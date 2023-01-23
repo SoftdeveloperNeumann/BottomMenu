@@ -16,4 +16,12 @@
         app:itemIconTint="@drawable/bottom_menu_selector"
         app:menu="@menu/menu_bottom"
         tools:menu="@menu/menu_bottom" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.bottommenu.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"
+        tools:layout="@layout/fragment_home" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
